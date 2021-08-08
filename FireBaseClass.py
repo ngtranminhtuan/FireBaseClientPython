@@ -2,7 +2,6 @@ import firebase_admin
 from firebase_admin import credentials, db, firestore, storage
 import os
 import cv2
-import pyrebase
 from firebase import Firebase
 
 
@@ -51,8 +50,8 @@ class EaV_DB_Util:
         return self.collection(collectionName).document(documentName)
     
     def getData(self, collectionName):
-        colletioRef = self.db.collection(collectionName)
-        docs = colletioRef.stream()
+        colletionRef = self.db.collection(collectionName)
+        docs = colletionRef.stream()
 
         for doc in docs:
             print('{} => {} '.format(doc.id, doc.to_dict()))
