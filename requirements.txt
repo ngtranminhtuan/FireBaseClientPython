@@ -1,0 +1,6 @@
+firebase_admin
+google-cloud-storage
+python-firebase
+requests
+opencv-python
+# pyrebase
