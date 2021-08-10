@@ -12,14 +12,15 @@ if __name__ == '__main__':
         u'country': u'USA'
     }
 
-    # Adding data
-    firebaseClient.setData('cities', 'NY', data)
+    while True:
+        # Adding data
+        firebaseClient.setData('cities', 'NY', data)
 
-    # Reading the data
-    firebaseClient.getData("cities")
+        # Reading the data
+        firebaseClient.getData("cities")
 
-    # get Image from FireBase
-    firebaseClient.getImage("nhatrang.jpg")
+        # get Image from FireBase
+        firebaseClient.getImage("nhatrang.jpg")
 
-    # set Image to FireBase
-    firebaseClient.setImage("test1.jpg")
+        # set Image to FireBase
+        firebaseClient.setImage("test1.jpg")

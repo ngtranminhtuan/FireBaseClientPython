@@ -3,4 +3,9 @@ google-cloud-storage
 python-firebase
 requests
 opencv-python
+firebase
+python_jwt
+gcloud
+# sseclient
+# Crypto
 # pyrebase

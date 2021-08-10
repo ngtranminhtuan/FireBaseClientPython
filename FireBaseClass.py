@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, db, firestore, storage
 import os
 import cv2
-from firebase import Firebase
+# from firebase import Firebase
 
 
 class EaV_DB_Util:
